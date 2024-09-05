@@ -1495,3 +1495,331 @@ Processing by Devise::PasswordsController#new as HTML
 Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3621)
 
 
+Started GET "/admins/sign_in" for ::1 at 2024-09-05 09:15:52 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.8ms | Allocations: 569)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 116.4ms | Allocations: 33619)
+  Rendered layout layouts/application.html.erb (Duration: 5128.1ms | Allocations: 218473)
+Completed 200 OK in 5149ms (Views: 5132.7ms | ActiveRecord: 2.2ms | Allocations: 231385)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:15:59 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.8ms | Allocations: 587)
+  Rendered layout layouts/site.html.erb (Duration: 6.5ms | Allocations: 6008)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6691)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 09:16:05 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 395)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-05 09:16:05 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.2ms | Allocations: 113)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 913)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 6058)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6670)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:17:02 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.6ms | Allocations: 576)
+  Rendered layout layouts/site.html.erb (Duration: 19.7ms | Allocations: 37266)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 38095)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 09:17:17 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 1088)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-05 09:17:17 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.9ms | Allocations: 533)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1865)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 7295)
+Completed 200 OK in 25ms (Views: 16.0ms | ActiveRecord: 2.6ms | Allocations: 12493)
+
+
+Started GET "/admins/password/new" for ::1 at 2024-09-05 09:17:21 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/passwords/new.html.erb within layouts/application
+  Rendered admins/shared/_error_messages.html.erb (Duration: 0.3ms | Allocations: 218)
+  Rendered admins/shared/_links.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered admins/passwords/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1146)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 6298)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 7153)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:17:21 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.5ms | Allocations: 314)
+  Rendered layout layouts/site.html.erb (Duration: 5.7ms | Allocations: 5469)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 5689)
+
+
+Started GET "/admins/password/new" for ::1 at 2024-09-05 09:17:21 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/passwords/new.html.erb within layouts/application
+  Rendered admins/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered admins/shared/_links.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered admins/passwords/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 607)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 5759)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6267)
+
+
+Started GET "/admins/sign_up" for ::1 at 2024-09-05 09:17:22 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/registrations/new.html.erb within layouts/application
+  Rendered admins/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered admins/shared/_links.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered admins/registrations/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1325)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6477)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7366)
+
+
+Started GET "/admins/password/new" for ::1 at 2024-09-05 09:17:22 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/passwords/new.html.erb within layouts/application
+  Rendered admins/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered admins/shared/_links.html.erb (Duration: 0.1ms | Allocations: 108)
+  Rendered admins/passwords/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 607)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 5756)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 6287)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:17:23 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.4ms | Allocations: 305)
+  Rendered layout layouts/site.html.erb (Duration: 5.9ms | Allocations: 5457)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5676)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-05 09:24:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.8ms | Allocations: 564)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 84.0ms | Allocations: 33672)
+  Rendered layout layouts/application.html.erb (Duration: 188.9ms | Allocations: 120937)
+Completed 200 OK in 224ms (Views: 193.6ms | ActiveRecord: 1.8ms | Allocations: 133859)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:26:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 5.4ms | Allocations: 1926)
+  Rendered layout layouts/site.html.erb (Duration: 147.6ms | Allocations: 89825)
+Completed 200 OK in 153ms (Views: 149.8ms | ActiveRecord: 0.0ms | Allocations: 93180)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:27:26 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.7ms | Allocations: 570)
+  Rendered layout layouts/site.html.erb (Duration: 19.9ms | Allocations: 41127)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 41960)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:27:41 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.7ms | Allocations: 572)
+  Rendered layout layouts/site.html.erb (Duration: 27.2ms | Allocations: 41138)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 41970)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:31:06 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.7ms | Allocations: 553)
+Importmap skipped missing path: @all.js
+Importmap skipped missing path: @all.js
+  Rendered layout layouts/site.html.erb (Duration: 24.5ms | Allocations: 41762)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 42595)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:35:54 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.6ms | Allocations: 559)
+  Rendered layout layouts/site.html.erb (Duration: 24.5ms | Allocations: 41165)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 41998)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:38:31 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.8ms | Allocations: 589)
+  Rendered layout layouts/site.html.erb (Duration: 27.9ms | Allocations: 41149)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 41979)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:45:16 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.7ms | Allocations: 606)
+  Rendered layout layouts/site.html.erb (Duration: 24.5ms | Allocations: 37614)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 38445)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:45:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 5.3ms | Allocations: 1927)
+  Rendered layout layouts/site.html.erb (Duration: 111.1ms | Allocations: 74288)
+Completed 200 OK in 117ms (Views: 113.4ms | ActiveRecord: 0.0ms | Allocations: 77644)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:45:48 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 0.8ms | Allocations: 564)
+  Rendered layout layouts/site.html.erb (Duration: 28.2ms | Allocations: 37402)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 38233)
+
+
+Started GET "/" for ::1 at 2024-09-05 09:55:01 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 5.1ms | Allocations: 1939)
+  Rendered layout layouts/site.html.erb (Duration: 139.9ms | Allocations: 97651)
+Completed 200 OK in 145ms (Views: 142.0ms | ActiveRecord: 0.0ms | Allocations: 101012)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 09:55:12 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 1239)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-05 09:55:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.5ms | Allocations: 554)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2906)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 8452)
+Completed 200 OK in 20ms (Views: 9.9ms | ActiveRecord: 1.7ms | Allocations: 17295)
+
+
+Started POST "/admins/sign_in" for ::1 at 2024-09-05 09:55:22 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admins_backoffice/welcome/index
+Completed 303 See Other in 226ms (ActiveRecord: 0.2ms | Allocations: 7026)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 09:55:22 -0300
+Processing by AdminsBackoffice::WelcomeController#index as TURBO_STREAM
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 300)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 6.2ms | Allocations: 6205)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 8088)
+
+
+Started GET "/admins_backoffice/welcome/vendor/fontawesome-free/css/all.min.css" for ::1 at 2024-09-05 09:55:22 -0300
+Started GET "/admins_backoffice/welcome/css/sb-admin-2.min.css" for ::1 at 2024-09-05 09:55:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/vendor/fontawesome-free/css/all.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/css/sb-admin-2.min.css"):
+  
+Started GET "/admins_backoffice/welcome/vendor/jquery/jquery.min.js" for ::1 at 2024-09-05 09:55:23 -0300
+Started GET "/admins_backoffice/welcome/vendor/bootstrap/js/bootstrap.bundle.min.js" for ::1 at 2024-09-05 09:55:23 -0300
+Started GET "/admins_backoffice/welcome/vendor/jquery-easing/jquery.easing.min.js" for ::1 at 2024-09-05 09:55:23 -0300
+Started GET "/admins_backoffice/welcome/js/sb-admin-2.min.js" for ::1 at 2024-09-05 09:55:23 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 09:55:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/vendor/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/vendor/bootstrap/js/bootstrap.bundle.min.js"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 09:55:23 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 09:55:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/vendor/jquery-easing/jquery.easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/js/sb-admin-2.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 09:55:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/tables.html" for ::1 at 2024-09-05 09:55:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/tables.html"):
+  
+Started GET "/admins_backoffice/welcome/charts.html" for ::1 at 2024-09-05 09:55:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/charts.html"):
+  
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-05 09:55:40 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 5.6ms | Allocations: 5419)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 7021)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-05 09:55:40 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 9.8ms | Allocations: 5320)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.1ms | Allocations: 6898)
+
+

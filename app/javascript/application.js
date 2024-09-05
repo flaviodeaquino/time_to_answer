@@ -2,6 +2,9 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import jquery from "jquery"
+import "popper"
+import "bootstrap"
+import "@fortawesome/fontawesome-free"
+
 window.$ = jquery
 
-console.log($)
