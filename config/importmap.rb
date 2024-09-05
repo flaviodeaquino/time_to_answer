@@ -10,5 +10,4 @@ pin "jquery" # @3.7.1
 pin "popper", to: 'popper.js', preload: true
 pin "bootstrap", to: 'bootstrap.min.js', preload: true
 pin "@fortawesome/fontawesome-free", to: 'https://ga.jspm.io/npm:@fortawesome/fontawesome-free@6.6.0/js/all.js' # @6.6.0
-pin "jquery-easing" # @0.0.1
-pin "jquery.easing.1.3"
+pin "jqueryeasing"
