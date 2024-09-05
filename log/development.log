@@ -3921,3 +3921,162 @@ ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendor
   
 ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
   
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:36:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.8ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 741.4ms | Allocations: 463874)
+Completed 200 OK in 769ms (Views: 743.9ms | ActiveRecord: 2.3ms | Allocations: 481375)
+
+
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:36:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:36:51 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:36:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 14:43:43 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.8ms | Allocations: 255)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 20.3ms | Allocations: 14100)
+Completed 200 OK in 38ms (Views: 21.1ms | ActiveRecord: 2.2ms | Allocations: 20519)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 14:43:43 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 14:43:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 14:43:43 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 14:43:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:44:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.7ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 296.1ms | Allocations: 268198)
+Completed 200 OK in 322ms (Views: 298.2ms | ActiveRecord: 1.6ms | Allocations: 285702)
+
+
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:44:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:44:56 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:44:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:48:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.7ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 307.4ms | Allocations: 269521)
+Completed 200 OK in 344ms (Views: 309.7ms | ActiveRecord: 1.5ms | Allocations: 287036)
+
+
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:48:27 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:48:27 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:48:27 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 15:13:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.9ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 17062.7ms | Allocations: 660638)
+Completed 500 Internal Server Error in 17102ms (ActiveRecord: 2.1ms | Allocations: 678094)
+
+
+  
+ActionView::Template::Error (undefined method `symbolize_keys' for an instance of String):
+    175:                 <ul class=" navbar-right">
+    176:                   <li class="nav-item dropdown open" style="padding-left: 15px;">
+    177:                     <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+    178:                       <%= image_tag 'img.jpg', alt="" %>John Doe
+    179:                     </a>
+    180:                     <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
+    181:                       <a class="dropdown-item"  href="javascript:;"> Profile</a>
+  
+app/views/layouts/users_backoffice.html.erb:178
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 15:14:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.7ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 208.1ms | Allocations: 201836)
+Completed 200 OK in 247ms (Views: 210.7ms | ActiveRecord: 1.9ms | Allocations: 219336)
+
+
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 15:14:46 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 20.4ms | Allocations: 16812)
+Completed 200 OK in 27ms (Views: 20.9ms | ActiveRecord: 0.1ms | Allocations: 18774)
+
+
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 15:19:39 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.9ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 221.2ms | Allocations: 204440)
+Completed 200 OK in 250ms (Views: 223.4ms | ActiveRecord: 1.9ms | Allocations: 221908)
+
+
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 15:19:50 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 19.8ms | Allocations: 19313)
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.1ms | Allocations: 21260)
+
+
