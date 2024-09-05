@@ -11,9 +11,11 @@ Rails.application.config.assets.version = "1.0"
 # folder are already added.
 
 # /app/assets
-Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css )
+Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css
+                                                  users_backoffice.js users_backoffice.css  )
 
 Rails.application.config.assets.precompile += %w( bootstrap.min.js popper.js)
 
 # /lib/assets
-Rails.application.config.assets.precompile += %w( sb-admin-2.min.js sb-admin-2.min.css )
+Rails.application.config.assets.precompile += %w( sb-admin-2.min.js sb-admin-2.min.css 
+                                                  custom.min.js custom.min.css  )

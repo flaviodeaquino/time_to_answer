@@ -3282,3 +3282,642 @@ ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welco
   
 ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
   
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 13:47:52 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 3269)
+
+
+Started GET "/users/sign_in" for ::1 at 2024-09-05 13:47:52 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.5ms | Allocations: 565)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3004)
+  Rendered layout layouts/application.html.erb (Duration: 116.7ms | Allocations: 105545)
+Completed 200 OK in 132ms (Views: 122.3ms | ActiveRecord: 1.6ms | Allocations: 116295)
+
+
+Started POST "/users/sign_in" for ::1 at 2024-09-05 13:48:00 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"user@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "user@user.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users_backoffice/welcome/index
+Completed 303 See Other in 202ms (ActiveRecord: 0.2ms | Allocations: 7072)
+
+
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 13:48:00 -0300
+Processing by UsersBackoffice::WelcomeController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.8ms | Allocations: 307)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 5.8ms | Allocations: 6056)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 8121)
+
+
+Started GET "/users_backoffice/vendors/bootstrap/dist/css/bootstrap.min.css" for ::1 at 2024-09-05 13:48:00 -0300
+Started GET "/users_backoffice/vendors/font-awesome/css/font-awesome.min.css" for ::1 at 2024-09-05 13:48:00 -0300
+Started GET "/users_backoffice/vendors/nprogress/nprogress.css" for ::1 at 2024-09-05 13:48:00 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/bootstrap/dist/css/bootstrap.min.css"):
+  
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" for ::1 at 2024-09-05 13:48:00 -0300
+Started GET "/users_backoffice/build/css/custom.min.css" for ::1 at 2024-09-05 13:48:00 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/font-awesome/css/font-awesome.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/css/custom.min.css"):
+  
+Started GET "/users_backoffice/vendors/jquery/dist/jquery.min.js" for ::1 at 2024-09-05 13:48:01 -0300
+Started GET "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" for ::1 at 2024-09-05 13:48:01 -0300
+Started GET "/users_backoffice/vendors/fastclick/lib/fastclick.js" for ::1 at 2024-09-05 13:48:01 -0300
+Started GET "/users_backoffice/vendors/nprogress/nprogress.js" for ::1 at 2024-09-05 13:48:01 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 13:48:01 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/jquery/dist/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/fastclick/lib/fastclick.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 13:48:01 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 13:48:01 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/welcome/form_advanced.html" for ::1 at 2024-09-05 13:48:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/form_advanced.html"):
+  
+Started GET "/users_backoffice/welcome/typography.html" for ::1 at 2024-09-05 13:48:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/typography.html"):
+  
+Started GET "/users_backoffice/welcome/form_buttons.html" for ::1 at 2024-09-05 13:53:57 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/form_buttons.html"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 13:54:02 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.7ms | Allocations: 410)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 145.4ms | Allocations: 144102)
+Completed 200 OK in 178ms (Views: 146.5ms | ActiveRecord: 3.9ms | Allocations: 158513)
+
+
+Started GET "/users_backoffice/vendors/bootstrap/dist/css/bootstrap.min.css" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/vendors/font-awesome/css/font-awesome.min.css" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/vendors/nprogress/nprogress.css" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/build/css/custom.min.css" for ::1 at 2024-09-05 13:54:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/bootstrap/dist/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/font-awesome/css/font-awesome.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/css/custom.min.css"):
+  
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/vendors/jquery/dist/jquery.min.js" for ::1 at 2024-09-05 13:54:02 -0300
+Started GET "/users_backoffice/vendors/fastclick/lib/fastclick.js" for ::1 at 2024-09-05 13:54:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/vendors/nprogress/nprogress.js" for ::1 at 2024-09-05 13:54:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/jquery/dist/jquery.min.js"):
+  
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 13:54:03 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 13:54:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/fastclick/lib/fastclick.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+Started GET "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" for ::1 at 2024-09-05 13:54:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/users_backoffice/welcome/icons.html" for ::1 at 2024-09-05 13:54:04 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/icons.html"):
+  
+Started GET "/users_backoffice/welcome/index.html" for ::1 at 2024-09-05 14:07:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 1.1ms | Allocations: 538)
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:07:12 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.6ms | Allocations: 123)
+Started GET "/users_backoffice/welcome/inbox.html" for ::1 at 2024-09-05 14:07:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/inbox.html"):
+  
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 15527.9ms | Allocations: 416951)
+Completed 500 Internal Server Error in 15566ms (ActiveRecord: 2.3ms | Allocations: 434095)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: nprogress.
+        on line 7:2 of app/assets/stylesheets/users_backoffice.scss
+>>  @import "nprogress";
+
+   -^
+):
+  
+sassc (2.4.0) lib/sassc/engine.rb:50:in `render'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:40:in `block in call'
+sprockets (4.2.1) lib/sprockets/utils.rb:145:in `block in module_include'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `synchronize'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `module_include'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:39:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:32:in `block in call'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each_key'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each'
+sprockets (4.2.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:359:in `run_task'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:350:in `block (3 levels) in create_worker'
+<internal:kernel>:187:in `loop'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:341:in `block (2 levels) in create_worker'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `catch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `block in create_worker'
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 15751.9ms | Allocations: 530273)
+Completed 500 Internal Server Error in 15760ms (ActiveRecord: 1.4ms | Allocations: 532371)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: nprogress.
+        on line 7:2 of app/assets/stylesheets/users_backoffice.scss
+>>  @import "nprogress";
+
+   -^
+):
+  
+sassc (2.4.0) lib/sassc/engine.rb:50:in `render'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:40:in `block in call'
+sprockets (4.2.1) lib/sprockets/utils.rb:145:in `block in module_include'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `synchronize'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `module_include'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:39:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:32:in `block in call'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each_key'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each'
+sprockets (4.2.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:359:in `run_task'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:350:in `block (3 levels) in create_worker'
+<internal:kernel>:187:in `loop'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:341:in `block (2 levels) in create_worker'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `catch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `block in create_worker'
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:07:55 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 410.6ms | Allocations: 75936)
+Completed 500 Internal Server Error in 414ms (ActiveRecord: 0.1ms | Allocations: 77573)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: malihu-custom-scrollbar-plugin.
+        on line 7:2 of app/assets/stylesheets/users_backoffice.scss
+>>  @import "malihu-custom-scrollbar-plugin";
+
+   -^
+):
+  
+sassc (2.4.0) lib/sassc/engine.rb:50:in `render'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:40:in `block in call'
+sprockets (4.2.1) lib/sprockets/utils.rb:145:in `block in module_include'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `synchronize'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `module_include'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:39:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:32:in `block in call'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each_key'
+/home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/set.rb:501:in `each'
+sprockets (4.2.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:359:in `run_task'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:350:in `block (3 levels) in create_worker'
+<internal:kernel>:187:in `loop'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:341:in `block (2 levels) in create_worker'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `catch'
+concurrent-ruby (1.3.4) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `block in create_worker'
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:08:09 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.7ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 4418.3ms | Allocations: 183668)
+Completed 200 OK in 4442ms (Views: 4420.7ms | ActiveRecord: 1.5ms | Allocations: 200842)
+
+
+Started GET "/users_backoffice/vendors/nprogress/nprogress.css" for ::1 at 2024-09-05 14:08:13 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" for ::1 at 2024-09-05 14:08:13 -0300
+Started GET "/users_backoffice/build/css/custom.min.css" for ::1 at 2024-09-05 14:08:13 -0300
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:08:13 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.css"):
+  
+Started GET "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" for ::1 at 2024-09-05 14:08:13 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"):
+  
+Started GET "/users_backoffice/vendors/fastclick/lib/fastclick.js" for ::1 at 2024-09-05 14:08:13 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/css/custom.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/vendors/nprogress/nprogress.js" for ::1 at 2024-09-05 14:08:13 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:08:14 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:08:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/fastclick/lib/fastclick.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/nprogress/nprogress.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+Started GET "/users_backoffice/vendors/jquery/dist/jquery.min.js" for ::1 at 2024-09-05 14:08:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/jquery/dist/jquery.min.js"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:23:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 1.0ms | Allocations: 538)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 213.8ms | Allocations: 163250)
+Completed 200 OK in 252ms (Views: 215.9ms | ActiveRecord: 1.9ms | Allocations: 180432)
+
+
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:23:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:23:11 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:23:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 14:25:16 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.8ms | Allocations: 253)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 12.9ms | Allocations: 14233)
+Completed 200 OK in 24ms (Views: 13.6ms | ActiveRecord: 0.5ms | Allocations: 20091)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 14:25:16 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 14:25:16 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 14:25:16 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 14:25:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 14:25:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 14:25:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 14:25:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 14:25:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/register.html" for ::1 at 2024-09-05 14:25:52 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/register.html"):
+  
+Started GET "/admins_backoffice/welcome/login.html" for ::1 at 2024-09-05 14:25:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/login.html"):
+  
+Started GET "/admins_backoffice/welcome/register.html" for ::1 at 2024-09-05 14:25:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/register.html"):
+  
+Started GET "/admins_backoffice/welcome/forgot-password.html" for ::1 at 2024-09-05 14:25:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/forgot-password.html"):
+  
+Started GET "/admins_backoffice/welcome/404.html" for ::1 at 2024-09-05 14:25:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/404.html"):
+  
+Started GET "/admins_backoffice/welcome/blank.html" for ::1 at 2024-09-05 14:25:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/blank.html"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 14:25:54 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 14:25:54 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 14:25:54 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 14:25:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-05 14:25:58 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 14.2ms | Allocations: 13453)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.1ms | Allocations: 15058)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-05 14:25:58 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-05 14:25:58 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-05 14:25:58 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-05 14:25:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/users_backoffice/welcome/index" for ::1 at 2024-09-05 14:26:03 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 13.9ms | Allocations: 11176)
+Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 0.1ms | Allocations: 12796)
+
+
+Started GET "/users_backoffice/welcome/images/img.jpg" for ::1 at 2024-09-05 14:26:03 -0300
+Started GET "/users_backoffice/build/js/custom.min.js" for ::1 at 2024-09-05 14:26:03 -0300
+Started GET "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" for ::1 at 2024-09-05 14:26:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/welcome/images/img.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/users_backoffice/build/js/custom.min.js"):
+  
