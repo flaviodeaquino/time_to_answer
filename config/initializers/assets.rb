@@ -22,4 +22,4 @@ Rails.application.config.assets.precompile += %w( sb-admin-2.min.js sb-admin-2.m
                                                   img.jpg )
 
 # /vendor/assets
-Rails.application.config.assets.precompile += %w( jquery-2.2.3/dist/jquery.js )
+# Rails.application.config.assets.precompile += %w( jquery-2.2.3/dist/jquery.js )

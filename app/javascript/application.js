@@ -8,4 +8,4 @@ import "@fortawesome/fontawesome-free"
 
 window.$ = jquery
 
-import "jqueryeasing"
+import "jquery.easing"

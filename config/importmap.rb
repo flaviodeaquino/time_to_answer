@@ -5,7 +5,6 @@ pin "@hotwired/turbo-rails", to: "turbo.min.js"
 pin "@hotwired/stimulus", to: "stimulus.min.js"
 pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 pin_all_from "app/javascript/controllers", under: "controllers"
-pin "jquery" # @3.7.1
 
 pin "popper", to: 'popper.js', preload: true
 pin "bootstrap", to: 'bootstrap.min.js', preload: true
@@ -15,3 +14,5 @@ pin "nprogress" # @0.2.0
 pin "malihu-custom-scrollbar-plugin" # @3.1.5
 pin "jquery-mousewheel" # @3.1.13
 pin "fastclick" # @1.0.6
+pin "jquery" # @3.7.1
+pin "jquery.easing" # @1.4.1
