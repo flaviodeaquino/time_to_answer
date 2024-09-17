@@ -4080,3 +4080,800 @@ Processing by UsersBackoffice::WelcomeController#index as HTML
 Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.1ms | Allocations: 21260)
 
 
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:19:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 2436)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-10 09:19:50 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.7ms | Allocations: 560)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3097)
+  Rendered layout layouts/application.html.erb (Duration: 287.8ms | Allocations: 192771)
+Completed 200 OK in 312ms (Views: 295.2ms | ActiveRecord: 1.7ms | Allocations: 204848)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-09-10 09:20:37 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [62 times] (Duration: 16.9ms | Allocations: 16044)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.6ms | Allocations: 803)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 23.6ms | Allocations: 22618)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 24.1ms | Allocations: 22899)
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 24159)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:23:29 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 627)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-10 09:23:29 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.1ms | Allocations: 113)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 908)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6181)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 7120)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:23:33 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-10 09:23:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.2ms | Allocations: 111)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 905)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6176)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7123)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:23:34 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 659)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-10 09:23:34 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.2ms | Allocations: 111)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 905)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6175)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7124)
+
+
+Started POST "/admins/sign_in" for ::1 at 2024-09-10 09:23:48 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (1.4ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admins_backoffice/welcome/index
+Completed 303 See Other in 213ms (ActiveRecord: 1.4ms | Allocations: 7338)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:23:49 -0300
+Processing by AdminsBackoffice::WelcomeController#index as TURBO_STREAM
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 304)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 15.0ms | Allocations: 14808)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.1ms | Allocations: 17199)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:23:49 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 9.3ms | Allocations: 13847)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 15756)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:23:49 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:23:49 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:23:49 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:23:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:23:55 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:23:55 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:23:55 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:23:55 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:23:56 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:23:56 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:23:56 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:23:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:24:06 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:24:06 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:24:06 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:24:06 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:24:07 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:24:07 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:24:07 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:24:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:24:10 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.2ms | Allocations: 14026)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.1ms | Allocations: 15965)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:24:15 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.3ms | Allocations: 13847)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.1ms | Allocations: 15781)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:24:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:24:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:24:50 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:24:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:24:51 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:24:51 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:24:51 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:24:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:25:03 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:25:03 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:25:03 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:25:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:25:04 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:25:04 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:25:04 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:25:04 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:25:05 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:25:05 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:25:05 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:25:05 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:28:45 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 288)
+Started GET "/admins_backoffice/welcome/login.html" for ::1 at 2024-09-10 09:28:49 -0300
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 11985.5ms | Allocations: 274909)
+Completed 500 Internal Server Error in 11995ms (ActiveRecord: 1.4ms | Allocations: 282511)
+
+
+  
+ActionView::Template::Error (Asset `undraw_profile.svg` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link undraw_profile.svg
+
+and restart your server):
+    324:                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+    325:                                 <img class="img-profile rounded-circle"
+    326:                                     src="img/undraw_profile.svg">
+    327:                                 <%= image_tag 'undraw_profile.svg', class:"img-profile rounded-circle" %>
+    328:                             </a>
+    329:                             <!-- Dropdown - User Information -->
+    330:                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+  
+app/views/layouts/admins_backoffice.html.erb:327
+Started GET "/admins_backoffice/welcome/register.html" for ::1 at 2024-09-10 09:28:58 -0300
+Started GET "/admins_backoffice/welcome/forgot-password.html" for ::1 at 2024-09-10 09:28:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/login.html"):
+  
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:28:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/register.html"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/forgot-password.html"):
+  
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 1.1ms | Allocations: 389)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 136.1ms | Allocations: 110290)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 2.5ms | Allocations: 165548)
+
+
+  
+ActionView::Template::Error (Asset `undraw_profile.svg` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link undraw_profile.svg
+
+and restart your server):
+    324:                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+    325:                                 <img class="img-profile rounded-circle"
+    326:                                     src="img/undraw_profile.svg">
+    327:                                 <%= image_tag 'undraw_profile.svg', class:"img-profile rounded-circle" %>
+    328:                             </a>
+    329:                             <!-- Dropdown - User Information -->
+    330:                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+  
+app/views/layouts/admins_backoffice.html.erb:327
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:29:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 541)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 260.0ms | Allocations: 226719)
+Completed 500 Internal Server Error in 296ms (ActiveRecord: 1.7ms | Allocations: 244151)
+
+
+  
+ActionView::Template::Error (Asset `undraw_profile.svg` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link undraw_profile.svg
+
+and restart your server):
+    324:                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+    325:                                 <img class="img-profile rounded-circle"
+    326:                                     src="img/undraw_profile.svg">
+    327:                                 <%= image_tag 'undraw_profile.svg', class:"img-profile rounded-circle" %>
+    328:                             </a>
+    329:                             <!-- Dropdown - User Information -->
+    330:                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+  
+app/views/layouts/admins_backoffice.html.erb:327
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.8ms | Allocations: 541)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 294.3ms | Allocations: 271335)
+Completed 200 OK in 331ms (Views: 296.3ms | ActiveRecord: 1.8ms | Allocations: 288811)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:33 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:33 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:35 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 25.9ms | Allocations: 15216)
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.1ms | Allocations: 17135)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:35 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:35 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:35 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:37 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:37 -0300
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 29.8ms | Allocations: 16588)
+Completed 200 OK in 43ms (Views: 30.4ms | ActiveRecord: 0.1ms | Allocations: 20724)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:37 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 33.4ms | Allocations: 17665)
+Completed 200 OK in 46ms (Views: 34.1ms | ActiveRecord: 0.1ms | Allocations: 20750)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:38 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:38 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:38 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:38 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:38 -0300
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 39.6ms | Allocations: 17974)
+Completed 200 OK in 45ms (Views: 40.2ms | ActiveRecord: 0.1ms | Allocations: 19927)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:31:45 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:31:45 -0300
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:31:45 -0300
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:31:45 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-10 09:31:45 -0300
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 35.6ms | Allocations: 17483)
+Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.1ms | Allocations: 19993)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:36:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.8ms | Allocations: 541)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 203.1ms | Allocations: 200666)
+Completed 200 OK in 242ms (Views: 205.4ms | ActiveRecord: 2.0ms | Allocations: 218127)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:36:47 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:36:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:36:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:36:49 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.4ms | Allocations: 15070)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.1ms | Allocations: 16992)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:36:49 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:36:49 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:36:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:36:53 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:36:53 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:36:53 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:36:53 -0300
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 25.5ms | Allocations: 16894)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 0.1ms | Allocations: 18837)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:37:17 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-10 09:37:18 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.5ms | Allocations: 544)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2720)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 8345)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10257)
+
+
+Started POST "/admins/sign_in" for ::1 at 2024-09-10 09:37:25 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admins_backoffice/welcome/index
+Completed 303 See Other in 217ms (ActiveRecord: 0.2ms | Allocations: 4167)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:37:25 -0300
+Processing by AdminsBackoffice::WelcomeController#index as TURBO_STREAM
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 127)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 10.6ms | Allocations: 15212)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.1ms | Allocations: 17160)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:37:25 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 10.2ms | Allocations: 15030)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.1ms | Allocations: 16985)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:37:25 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:37:25 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:37:25 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:37:28 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:37:28 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:37:28 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-10 09:37:31 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-10 09:37:31 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-10 09:37:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/login.html" for ::1 at 2024-09-10 09:37:37 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/login.html"):
+  
+Started GET "/admins_backoffice/welcome/forgot-password.html" for ::1 at 2024-09-10 09:37:38 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/forgot-password.html"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:51:21 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.9ms | Allocations: 541)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 232.3ms | Allocations: 199302)
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-09-10 09:51:21 -0300
+Completed 200 OK in 271ms (Views: 236.2ms | ActiveRecord: 1.6ms | Allocations: 216957)
+
+
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 15.9ms | Allocations: 13871)
+Completed 200 OK in 22ms (Views: 16.3ms | ActiveRecord: 0.1ms | Allocations: 15798)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-10 09:51:43 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.9ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.9ms | Allocations: 13854)
+Completed 200 OK in 25ms (Views: 19.4ms | ActiveRecord: 0.1ms | Allocations: 15781)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-17 07:18:09 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 2435)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-09-17 07:18:09 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.8ms | Allocations: 565)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3102)
+  Rendered layout layouts/application.html.erb (Duration: 232.8ms | Allocations: 193644)
+Completed 200 OK in 257ms (Views: 239.9ms | ActiveRecord: 1.5ms | Allocations: 205719)
+
+
+Started POST "/admins/sign_in" for ::1 at 2024-09-17 07:18:29 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (1.4ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admins_backoffice/welcome/index
+Completed 303 See Other in 226ms (ActiveRecord: 1.4ms | Allocations: 7379)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-17 07:18:29 -0300
+Processing by AdminsBackoffice::WelcomeController#index as TURBO_STREAM
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 304)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 9.8ms | Allocations: 14810)
+Completed 200 OK in 15ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 17213)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-09-17 07:18:29 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 8.8ms | Allocations: 13853)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.1ms | Allocations: 15751)
+
+
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-17 07:18:29 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-17 07:18:29 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-17 07:18:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-17 07:18:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+Started GET "/admins_backoffice/welcome/forgot-password.html" for ::1 at 2024-09-17 07:18:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/forgot-password.html"):
+  
+Started GET "/admins_backoffice/welcome/img/undraw_profile_1.svg" for ::1 at 2024-09-17 07:18:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_2.svg" for ::1 at 2024-09-17 07:18:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile_3.svg" for ::1 at 2024-09-17 07:18:37 -0300
+Started GET "/admins_backoffice/welcome/img/undraw_profile.svg" for ::1 at 2024-09-17 07:18:37 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_1.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/img/undraw_profile_3.svg"):
+  
+Started GET "/admins_backoffice/welcome/404.html" for ::1 at 2024-09-17 07:19:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/404.html"):
+  
