@@ -47,6 +47,7 @@ gem "bootsnap", require: false
 gem 'devise'
 gem 'rails-i18n', '~> 7.0.0'
 gem 'tty-spinner'
+gem 'faker'
 
 gem 'bootstrap'
 gem "sassc-rails"
@@ -65,6 +66,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'awesome_print'
 end
 
 group :test do
