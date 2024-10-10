@@ -10763,3 +10763,312 @@ Processing by AdminsBackoffice::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.1ms | Allocations: 17360)
 
 
+Started GET "/rails/info/routes" for ::1 at 2024-10-10 13:16:38 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [64 times] (Duration: 15.8ms | Allocations: 16389)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.9ms | Allocations: 679)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 19.7ms | Allocations: 22895)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 20.0ms | Allocations: 23171)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 24301)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 13:19:56 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.7ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.4ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.9ms | Allocations: 1938)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 2.1ms | Allocations: 2030)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.5ms | Allocations: 9123)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"admins_backoffice/admins"}, missing required keys: [:id]):
+    18:                             <i class="fa fa-edit"></i>
+    19:                         </a>
+    20: 
+    21:                         <%= link_to edit_admins_backoffice_admin_path, class: 'btn btn-primary btn-circle' do %>
+    22:                             <i class="fa fa-edit"></i>
+    23:                         <% end %>
+    24: 
+  
+app/views/admins_backoffice/admins/index.html.erb:21
+app/views/admins_backoffice/admins/index.html.erb:12
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 13:21:17 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.5ms | Allocations: 1261)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 49.8ms | Allocations: 87465)
+Completed 200 OK in 62ms (Views: 50.7ms | ActiveRecord: 1.5ms | Allocations: 95073)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:21:18 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.9ms | Allocations: 254)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 32.7ms | Allocations: 15372)
+Completed 200 OK in 39ms (Views: 33.2ms | ActiveRecord: 0.1ms | Allocations: 17444)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2024-10-10 13:21:19 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 406 Not Acceptable in 24ms (ActiveRecord: 0.1ms | Allocations: 2707)
+
+
+  
+ActionController::MissingExactTemplate (AdminsBackoffice::AdminsController#edit is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.6) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.6) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 13:22:23 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 2.1ms | Allocations: 1249)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 49.8ms | Allocations: 87384)
+Completed 200 OK in 62ms (Views: 50.8ms | ActiveRecord: 1.9ms | Allocations: 94986)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:22:23 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 1.0ms | Allocations: 254)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 46.9ms | Allocations: 15388)
+Completed 200 OK in 56ms (Views: 47.3ms | ActiveRecord: 0.1ms | Allocations: 17440)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2024-10-10 13:22:25 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 90)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 11.8ms | Allocations: 15234)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 0.1ms | Allocations: 17219)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:22:29 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 14.8ms | Allocations: 15239)
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 0.1ms | Allocations: 17173)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:22:39 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 12.7ms | Allocations: 15429)
+Completed 200 OK in 21ms (Views: 13.1ms | ActiveRecord: 0.1ms | Allocations: 17363)
+
+
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2024-10-10 13:22:41 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 10.9ms | Allocations: 15207)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.1ms | Allocations: 17132)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:22:43 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 11.3ms | Allocations: 15239)
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 0.1ms | Allocations: 17154)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:22:45 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.2ms | Allocations: 15429)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 0.1ms | Allocations: 17342)
+
+
+Started GET "/admins_backoffice/admins/3/edit" for ::1 at 2024-10-10 13:24:39 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 22.2ms | Allocations: 15139)
+Completed 200 OK in 29ms (Views: 22.8ms | ActiveRecord: 0.1ms | Allocations: 17040)
+
+
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2024-10-10 13:24:39 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 16.3ms | Allocations: 15210)
+Completed 200 OK in 22ms (Views: 16.7ms | ActiveRecord: 0.1ms | Allocations: 17126)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 13:27:13 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 290)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 91.3ms | Allocations: 86316)
+Completed 200 OK in 102ms (Views: 92.2ms | ActiveRecord: 1.5ms | Allocations: 93908)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2024-10-10 13:27:13 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7:in `edit'
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 356)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 16.5ms | Allocations: 15573)
+Completed 200 OK in 24ms (Views: 17.0ms | ActiveRecord: 0.2ms | Allocations: 18686)
+
+
+Started GET "/admins_backoffice/admins/3/edit" for ::1 at 2024-10-10 13:27:15 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7:in `edit'
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 16.9ms | Allocations: 15226)
+Completed 200 OK in 24ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 17513)
+
+
+Started GET "/admins_backoffice/admins/4/edit" for ::1 at 2024-10-10 13:27:15 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7:in `edit'
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.8ms | Allocations: 15417)
+Completed 200 OK in 26ms (Views: 19.3ms | ActiveRecord: 0.2ms | Allocations: 17701)
+
+
