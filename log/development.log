@@ -8792,3 +8792,1974 @@ Processing by AdminsBackoffice::AdminsController#index as HTML
 Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.2ms | Allocations: 17643)
 
 
+Started GET "/rails/info/routes" for ::1 at 2024-10-10 11:36:55 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [64 times] (Duration: 10.7ms | Allocations: 16550)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.1ms | Allocations: 800)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 15.8ms | Allocations: 23340)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 16.1ms | Allocations: 23621)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 24939)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-10-10 11:42:53 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [70 times] (Duration: 39.8ms | Allocations: 17895)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.8ms | Allocations: 690)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 48.1ms | Allocations: 24940)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 48.6ms | Allocations: 25220)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.0ms | Allocations: 26349)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-10-10 11:43:16 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [70 times] (Duration: 13.1ms | Allocations: 18096)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.4ms | Allocations: 939)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 17.7ms | Allocations: 25598)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 18.1ms | Allocations: 25909)
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 29726)
+
+
+Started GET "/admins_backoffice/admins/index" for ::1 at 2024-10-10 12:29:52 -0300
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AdminsBackoffice::AdminsController):
+  
+actionpack (7.1.4) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/admins_backoffice/admins/index" for ::1 at 2024-10-10 12:30:03 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for AdminsBackoffice::AdminsController):
+  
+actionpack (7.1.4) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/admins_backoffice/admins/index" for ::1 at 2024-10-10 12:31:31 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/admins/index"):
+  
+Started GET "/rails/info/routes" for ::1 at 2024-10-10 12:31:42 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [63 times] (Duration: 18.3ms | Allocations: 16136)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.9ms | Allocations: 679)
+  Rendered /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 24.3ms | Allocations: 22549)
+  Rendered layout /home/aquino/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/layouts/application.html.erb (Duration: 24.9ms | Allocations: 22832)
+Completed 200 OK in 32ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 25025)
+
+
+Started GET "/admins_backoffice/admins/index" for ::1 at 2024-10-10 12:33:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/admins/index"):
+  
+Started GET "/" for ::1 at 2024-10-10 12:33:51 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/site/welcome/index.html.erb:10
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 14.5ms | Allocations: 11888)
+  Rendered layout layouts/site.html.erb (Duration: 203.4ms | Allocations: 205351)
+Completed 200 OK in 207ms (Views: 202.8ms | ActiveRecord: 1.7ms | Allocations: 206503)
+
+
+Started GET "/admins/sign_in" for ::1 at 2024-10-10 12:34:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 220ms (ActiveRecord: 0.1ms | Allocations: 314446)
+
+
+Started GET "/" for ::1 at 2024-10-10 12:34:01 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/site.html.erb
+  Rendering site/welcome/index.html.erb within layouts/site
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/site/welcome/index.html.erb:10
+  Rendered site/welcome/index.html.erb within layouts/site (Duration: 2.1ms | Allocations: 887)
+  Rendered layout layouts/site.html.erb (Duration: 22.7ms | Allocations: 6282)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.1ms | Allocations: 6842)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:34:06 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.9ms | Allocations: 301)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 21.3ms | Allocations: 16091)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.1ms | Allocations: 18283)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:34:09 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 16.9ms | Allocations: 15213)
+Completed 200 OK in 23ms (Views: 17.4ms | ActiveRecord: 0.1ms | Allocations: 17151)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:10 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.1ms | Allocations: 808)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 20.6ms | Allocations: 15978)
+Completed 200 OK in 25ms (Views: 20.9ms | ActiveRecord: 0.2ms | Allocations: 18087)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:34:12 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 9.2ms | Allocations: 15213)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 17120)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:15 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.0ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 15.4ms | Allocations: 15737)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.1ms | Allocations: 17664)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:19 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.0ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 17.9ms | Allocations: 15678)
+Completed 200 OK in 24ms (Views: 18.2ms | ActiveRecord: 0.2ms | Allocations: 17617)
+
+
+Started GET "/admins_backoffice/index.html" for ::1 at 2024-10-10 12:34:20 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/index.html"):
+  
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:26 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.2ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 19.9ms | Allocations: 15740)
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 0.2ms | Allocations: 17661)
+
+
+Started GET "/admins_backoffice/index.html" for ::1 at 2024-10-10 12:34:26 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/index.html"):
+  
+Started GET "/admins_backoffice/index.html" for ::1 at 2024-10-10 12:34:36 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/index.html"):
+  
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:34:41 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 20.3ms | Allocations: 15397)
+Completed 200 OK in 26ms (Views: 20.8ms | ActiveRecord: 0.1ms | Allocations: 17321)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:41 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 0.9ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 14.7ms | Allocations: 15677)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.2ms | Allocations: 17619)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:34:43 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 22.4ms | Allocations: 15282)
+Completed 200 OK in 28ms (Views: 22.8ms | ActiveRecord: 0.1ms | Allocations: 17201)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:49 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.0ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 11.2ms | Allocations: 15718)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.1ms | Allocations: 17647)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-10-10 12:34:49 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 11.9ms | Allocations: 15213)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 0.1ms | Allocations: 17129)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:34:51 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.4ms | Allocations: 573)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 23.5ms | Allocations: 15765)
+Completed 200 OK in 29ms (Views: 23.9ms | ActiveRecord: 0.2ms | Allocations: 17710)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:35:10 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 18.6ms | Allocations: 15251)
+Completed 200 OK in 25ms (Views: 19.1ms | ActiveRecord: 0.1ms | Allocations: 17178)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-10-10 12:38:57 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 290)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 1.3ms | Allocations: 1940)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.3ms | Allocations: 9567)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TimeToAnswer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "admins_backoffice" %>
+    
+
+
+
+  </head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+                    <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+                <% end %>
+            <% end %>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+                    <i class="fas fa-fw fa-users"></i>
+                    <span>Administradores
+                <% end %>
+            </li>
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <%= button_to destroy_admin_session_path, method: :delete do %>
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                    <% end %>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <%= yield %>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'admins_backoffice' %>
+
+</body>
+
+
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <meta charset="utf-8">
+5:        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+6:        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+7:        <meta name="description" content="">
+8:        <meta name="author" content="">
+9:        <title>TimeToAnswer</title>
+10:        <meta name="viewport" content="width=device-width,initial-scale=1">
+11:        <%= csrf_meta_tags %>
+12:        <%= csp_meta_tag %>
+13:    
+14:        <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+15:        <%= stylesheet_link_tag "admins_backoffice" %>
+16:        
+17:    
+18:    
+19:    
+20:      </head>
+21:    
+22:    <body id="page-top">
+23:    
+24:        <!-- Page Wrapper -->
+25:        <div id="wrapper">
+26:    
+27:            <!-- Sidebar -->
+28:            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+29:    
+30:                <!-- Sidebar - Brand -->
+31:                <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+32:                    <div class="sidebar-brand-icon rotate-n-15">
+33:                        <i class="fas fa-laugh-wink"></i>
+34:                    </div>
+35:                    <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+36:                </a>
+37:    
+38:                <!-- Divider -->
+39:                <hr class="sidebar-divider my-0">
+40:    
+41:                <!-- Nav Item - Dashboard -->
+42:                <li class="nav-item">
+43:                    <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+44:                        <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+45:                    <% end %>
+46:                <% end %>
+47:    
+48:                <!-- Divider -->
+49:                <hr class="sidebar-divider">
+50:    
+51:                <li class="nav-item">
+52:                    <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+53:                        <i class="fas fa-fw fa-users"></i>
+54:                        <span>Administradores
+55:                    <% end %>
+56:                </li>
+57:                
+58:    
+59:                <!-- Divider -->
+60:                <hr class="sidebar-divider d-none d-md-block">
+61:    
+62:                <!-- Sidebar Toggler (Sidebar) -->
+63:                <div class="text-center d-none d-md-inline">
+64:                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+65:                </div>
+66:    
+67:            </ul>
+68:            <!-- End of Sidebar -->
+69:    
+70:            <!-- Content Wrapper -->
+71:            <div id="content-wrapper" class="d-flex flex-column">
+72:    
+73:                <!-- Main Content -->
+74:                <div id="content">
+75:    
+76:                    <!-- Topbar -->
+77:                    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+78:    
+79:                        <!-- Sidebar Toggle (Topbar) -->
+80:                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+81:                            <i class="fa fa-bars"></i>
+82:                        </button>
+83:    
+84:                        <!-- Topbar Navbar -->
+85:                        <ul class="navbar-nav ml-auto">
+86:                            <!-- Nav Item - User Information -->
+87:                            <li class="nav-item dropdown no-arrow">
+88:                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+89:                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+90:                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+91:                                    <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+92:                                    <i class="fa-solid fa-user"></i>
+93:                                </a>
+94:                                <!-- Dropdown - User Information -->
+95:                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+96:                                    aria-labelledby="userDropdown">
+97:                                    <a class="dropdown-item" href="#">
+98:                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+99:                                        Profile
+100:                                    </a>
+101:                                    <a class="dropdown-item" href="#">
+102:                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+103:                                        Settings
+104:                                    </a>
+105:                                    <a class="dropdown-item" href="#">
+106:                                        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+107:                                        Activity Log
+108:                                    </a>
+109:                                    <div class="dropdown-divider"></div>
+110:                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+111:                                        <%= button_to destroy_admin_session_path, method: :delete do %>
+112:                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+113:                                        <% end %>
+114:                                    </a>
+115:                                </div>
+116:                            </li>
+117:    
+118:                        </ul>
+119:    
+120:                    </nav>
+121:                    <!-- End of Topbar -->
+122:    
+123:                    <!-- Begin Page Content -->
+124:                    <div class="container-fluid">
+125:    
+126:                        <!-- Page Heading -->
+127:                        <%= yield %>
+128:    
+129:                    </div>
+130:                    <!-- /.container-fluid -->
+131:    
+132:                </div>
+133:                <!-- End of Main Content -->
+134:    
+135:    
+136:                <!-- Footer -->
+137:                <footer class="sticky-footer bg-white">
+138:                    <div class="container my-auto">
+139:                        <div class="copyright text-center my-auto">
+140:                            <span>Copyright &copy; Your Website 2020</span>
+141:                        </div>
+142:                    </div>
+143:                </footer>
+144:                <!-- End of Footer -->
+145:    
+146:            </div>
+147:            <!-- End of Content Wrapper -->
+148:    
+149:        </div>
+150:        <!-- End of Page Wrapper -->
+151:    
+152:        <!-- Scroll to Top Button-->
+153:        <a class="scroll-to-top rounded" href="#page-top">
+154:            <i class="fas fa-angle-up"></i>
+155:        </a>
+156:    
+157:        <!-- Logout Modal-->
+158:        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+159:            aria-hidden="true">
+160:            <div class="modal-dialog" role="document">
+161:                <div class="modal-content">
+162:                    <div class="modal-header">
+163:                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+164:                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+165:                            <span aria-hidden="true">×</span>
+166:                        </button>
+167:                    </div>
+168:                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+169:                    <div class="modal-footer">
+170:                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+171:                        <a class="btn btn-primary" href="login.html">Logout</a>
+172:                    </div>
+173:                </div>
+174:            </div>
+175:        </div>
+176:    
+177:        <%= javascript_importmap_tags %>
+178:        <%= javascript_include_tag 'application' %>
+179:        <%= javascript_include_tag 'admins_backoffice' %>
+180:    
+181:    </body>
+182:    
+183:    
+184:    </html>
+  
+app/views/layouts/admins_backoffice.html.erb:31: syntax error, unexpected '='
+app/views/layouts/admins_backoffice.html.erb:186: syntax error, unexpected `end'
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:38:58 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.9ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 1.1ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 7.6ms | Allocations: 5283)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 1.5ms | Allocations: 43930)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TimeToAnswer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "admins_backoffice" %>
+    
+
+
+
+  </head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+                    <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+                <% end %>
+            <% end %>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+                    <i class="fas fa-fw fa-users"></i>
+                    <span>Administradores
+                <% end %>
+            </li>
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <%= button_to destroy_admin_session_path, method: :delete do %>
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                    <% end %>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <%= yield %>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'admins_backoffice' %>
+
+</body>
+
+
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <meta charset="utf-8">
+5:        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+6:        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+7:        <meta name="description" content="">
+8:        <meta name="author" content="">
+9:        <title>TimeToAnswer</title>
+10:        <meta name="viewport" content="width=device-width,initial-scale=1">
+11:        <%= csrf_meta_tags %>
+12:        <%= csp_meta_tag %>
+13:    
+14:        <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+15:        <%= stylesheet_link_tag "admins_backoffice" %>
+16:        
+17:    
+18:    
+19:    
+20:      </head>
+21:    
+22:    <body id="page-top">
+23:    
+24:        <!-- Page Wrapper -->
+25:        <div id="wrapper">
+26:    
+27:            <!-- Sidebar -->
+28:            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+29:    
+30:                <!-- Sidebar - Brand -->
+31:                <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+32:                    <div class="sidebar-brand-icon rotate-n-15">
+33:                        <i class="fas fa-laugh-wink"></i>
+34:                    </div>
+35:                    <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+36:                </a>
+37:    
+38:                <!-- Divider -->
+39:                <hr class="sidebar-divider my-0">
+40:    
+41:                <!-- Nav Item - Dashboard -->
+42:                <li class="nav-item">
+43:                    <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+44:                        <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+45:                    <% end %>
+46:                <% end %>
+47:    
+48:                <!-- Divider -->
+49:                <hr class="sidebar-divider">
+50:    
+51:                <li class="nav-item">
+52:                    <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+53:                        <i class="fas fa-fw fa-users"></i>
+54:                        <span>Administradores
+55:                    <% end %>
+56:                </li>
+57:                
+58:    
+59:                <!-- Divider -->
+60:                <hr class="sidebar-divider d-none d-md-block">
+61:    
+62:                <!-- Sidebar Toggler (Sidebar) -->
+63:                <div class="text-center d-none d-md-inline">
+64:                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+65:                </div>
+66:    
+67:            </ul>
+68:            <!-- End of Sidebar -->
+69:    
+70:            <!-- Content Wrapper -->
+71:            <div id="content-wrapper" class="d-flex flex-column">
+72:    
+73:                <!-- Main Content -->
+74:                <div id="content">
+75:    
+76:                    <!-- Topbar -->
+77:                    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+78:    
+79:                        <!-- Sidebar Toggle (Topbar) -->
+80:                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+81:                            <i class="fa fa-bars"></i>
+82:                        </button>
+83:    
+84:                        <!-- Topbar Navbar -->
+85:                        <ul class="navbar-nav ml-auto">
+86:                            <!-- Nav Item - User Information -->
+87:                            <li class="nav-item dropdown no-arrow">
+88:                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+89:                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+90:                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+91:                                    <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+92:                                    <i class="fa-solid fa-user"></i>
+93:                                </a>
+94:                                <!-- Dropdown - User Information -->
+95:                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+96:                                    aria-labelledby="userDropdown">
+97:                                    <a class="dropdown-item" href="#">
+98:                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+99:                                        Profile
+100:                                    </a>
+101:                                    <a class="dropdown-item" href="#">
+102:                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+103:                                        Settings
+104:                                    </a>
+105:                                    <a class="dropdown-item" href="#">
+106:                                        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+107:                                        Activity Log
+108:                                    </a>
+109:                                    <div class="dropdown-divider"></div>
+110:                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+111:                                        <%= button_to destroy_admin_session_path, method: :delete do %>
+112:                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+113:                                        <% end %>
+114:                                    </a>
+115:                                </div>
+116:                            </li>
+117:    
+118:                        </ul>
+119:    
+120:                    </nav>
+121:                    <!-- End of Topbar -->
+122:    
+123:                    <!-- Begin Page Content -->
+124:                    <div class="container-fluid">
+125:    
+126:                        <!-- Page Heading -->
+127:                        <%= yield %>
+128:    
+129:                    </div>
+130:                    <!-- /.container-fluid -->
+131:    
+132:                </div>
+133:                <!-- End of Main Content -->
+134:    
+135:    
+136:                <!-- Footer -->
+137:                <footer class="sticky-footer bg-white">
+138:                    <div class="container my-auto">
+139:                        <div class="copyright text-center my-auto">
+140:                            <span>Copyright &copy; Your Website 2020</span>
+141:                        </div>
+142:                    </div>
+143:                </footer>
+144:                <!-- End of Footer -->
+145:    
+146:            </div>
+147:            <!-- End of Content Wrapper -->
+148:    
+149:        </div>
+150:        <!-- End of Page Wrapper -->
+151:    
+152:        <!-- Scroll to Top Button-->
+153:        <a class="scroll-to-top rounded" href="#page-top">
+154:            <i class="fas fa-angle-up"></i>
+155:        </a>
+156:    
+157:        <!-- Logout Modal-->
+158:        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+159:            aria-hidden="true">
+160:            <div class="modal-dialog" role="document">
+161:                <div class="modal-content">
+162:                    <div class="modal-header">
+163:                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+164:                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+165:                            <span aria-hidden="true">×</span>
+166:                        </button>
+167:                    </div>
+168:                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+169:                    <div class="modal-footer">
+170:                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+171:                        <a class="btn btn-primary" href="login.html">Logout</a>
+172:                    </div>
+173:                </div>
+174:            </div>
+175:        </div>
+176:    
+177:        <%= javascript_importmap_tags %>
+178:        <%= javascript_include_tag 'application' %>
+179:        <%= javascript_include_tag 'admins_backoffice' %>
+180:    
+181:    </body>
+182:    
+183:    
+184:    </html>
+  
+app/views/layouts/admins_backoffice.html.erb:31: syntax error, unexpected '='
+app/views/layouts/admins_backoffice.html.erb:186: syntax error, unexpected `end'
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2024-10-10 12:38:59 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 1.9ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 4.1ms | Allocations: 1767)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms | Allocations: 3697)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TimeToAnswer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "admins_backoffice" %>
+    
+
+
+
+  </head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+                    <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+                <% end %>
+            <% end %>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+                    <i class="fas fa-fw fa-users"></i>
+                    <span>Administradores
+                <% end %>
+            </li>
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <%= button_to destroy_admin_session_path, method: :delete do %>
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                    <% end %>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <%= yield %>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'admins_backoffice' %>
+
+</body>
+
+
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <meta charset="utf-8">
+5:        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+6:        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+7:        <meta name="description" content="">
+8:        <meta name="author" content="">
+9:        <title>TimeToAnswer</title>
+10:        <meta name="viewport" content="width=device-width,initial-scale=1">
+11:        <%= csrf_meta_tags %>
+12:        <%= csp_meta_tag %>
+13:    
+14:        <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+15:        <%= stylesheet_link_tag "admins_backoffice" %>
+16:        
+17:    
+18:    
+19:    
+20:      </head>
+21:    
+22:    <body id="page-top">
+23:    
+24:        <!-- Page Wrapper -->
+25:        <div id="wrapper">
+26:    
+27:            <!-- Sidebar -->
+28:            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+29:    
+30:                <!-- Sidebar - Brand -->
+31:                <%= link_to admins_backoffice_welcome_index_path, class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+32:                    <div class="sidebar-brand-icon rotate-n-15">
+33:                        <i class="fas fa-laugh-wink"></i>
+34:                    </div>
+35:                    <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+36:                </a>
+37:    
+38:                <!-- Divider -->
+39:                <hr class="sidebar-divider my-0">
+40:    
+41:                <!-- Nav Item - Dashboard -->
+42:                <li class="nav-item">
+43:                    <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+44:                        <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+45:                    <% end %>
+46:                <% end %>
+47:    
+48:                <!-- Divider -->
+49:                <hr class="sidebar-divider">
+50:    
+51:                <li class="nav-item">
+52:                    <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+53:                        <i class="fas fa-fw fa-users"></i>
+54:                        <span>Administradores
+55:                    <% end %>
+56:                </li>
+57:                
+58:    
+59:                <!-- Divider -->
+60:                <hr class="sidebar-divider d-none d-md-block">
+61:    
+62:                <!-- Sidebar Toggler (Sidebar) -->
+63:                <div class="text-center d-none d-md-inline">
+64:                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+65:                </div>
+66:    
+67:            </ul>
+68:            <!-- End of Sidebar -->
+69:    
+70:            <!-- Content Wrapper -->
+71:            <div id="content-wrapper" class="d-flex flex-column">
+72:    
+73:                <!-- Main Content -->
+74:                <div id="content">
+75:    
+76:                    <!-- Topbar -->
+77:                    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+78:    
+79:                        <!-- Sidebar Toggle (Topbar) -->
+80:                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+81:                            <i class="fa fa-bars"></i>
+82:                        </button>
+83:    
+84:                        <!-- Topbar Navbar -->
+85:                        <ul class="navbar-nav ml-auto">
+86:                            <!-- Nav Item - User Information -->
+87:                            <li class="nav-item dropdown no-arrow">
+88:                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+89:                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+90:                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+91:                                    <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+92:                                    <i class="fa-solid fa-user"></i>
+93:                                </a>
+94:                                <!-- Dropdown - User Information -->
+95:                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+96:                                    aria-labelledby="userDropdown">
+97:                                    <a class="dropdown-item" href="#">
+98:                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+99:                                        Profile
+100:                                    </a>
+101:                                    <a class="dropdown-item" href="#">
+102:                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+103:                                        Settings
+104:                                    </a>
+105:                                    <a class="dropdown-item" href="#">
+106:                                        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+107:                                        Activity Log
+108:                                    </a>
+109:                                    <div class="dropdown-divider"></div>
+110:                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+111:                                        <%= button_to destroy_admin_session_path, method: :delete do %>
+112:                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+113:                                        <% end %>
+114:                                    </a>
+115:                                </div>
+116:                            </li>
+117:    
+118:                        </ul>
+119:    
+120:                    </nav>
+121:                    <!-- End of Topbar -->
+122:    
+123:                    <!-- Begin Page Content -->
+124:                    <div class="container-fluid">
+125:    
+126:                        <!-- Page Heading -->
+127:                        <%= yield %>
+128:    
+129:                    </div>
+130:                    <!-- /.container-fluid -->
+131:    
+132:                </div>
+133:                <!-- End of Main Content -->
+134:    
+135:    
+136:                <!-- Footer -->
+137:                <footer class="sticky-footer bg-white">
+138:                    <div class="container my-auto">
+139:                        <div class="copyright text-center my-auto">
+140:                            <span>Copyright &copy; Your Website 2020</span>
+141:                        </div>
+142:                    </div>
+143:                </footer>
+144:                <!-- End of Footer -->
+145:    
+146:            </div>
+147:            <!-- End of Content Wrapper -->
+148:    
+149:        </div>
+150:        <!-- End of Page Wrapper -->
+151:    
+152:        <!-- Scroll to Top Button-->
+153:        <a class="scroll-to-top rounded" href="#page-top">
+154:            <i class="fas fa-angle-up"></i>
+155:        </a>
+156:    
+157:        <!-- Logout Modal-->
+158:        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+159:            aria-hidden="true">
+160:            <div class="modal-dialog" role="document">
+161:                <div class="modal-content">
+162:                    <div class="modal-header">
+163:                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+164:                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+165:                            <span aria-hidden="true">×</span>
+166:                        </button>
+167:                    </div>
+168:                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+169:                    <div class="modal-footer">
+170:                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+171:                        <a class="btn btn-primary" href="login.html">Logout</a>
+172:                    </div>
+173:                </div>
+174:            </div>
+175:        </div>
+176:    
+177:        <%= javascript_importmap_tags %>
+178:        <%= javascript_include_tag 'application' %>
+179:        <%= javascript_include_tag 'admins_backoffice' %>
+180:    
+181:    </body>
+182:    
+183:    
+184:    </html>
+  
+app/views/layouts/admins_backoffice.html.erb:31: syntax error, unexpected '='
+app/views/layouts/admins_backoffice.html.erb:186: syntax error, unexpected `end'
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:39:11 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.7ms | Allocations: 286)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 2.3ms | Allocations: 1942)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.4ms | Allocations: 9534)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TimeToAnswer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "admins_backoffice" %>
+    
+
+
+
+  </head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <%= link_to admins_backoffice_welcome_index_path, class:"sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+                    <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+                <% end %>
+            <% end %>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+                    <i class="fas fa-fw fa-users"></i>
+                    <span>Administradores
+                <% end %>
+            </li>
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <%= button_to destroy_admin_session_path, method: :delete do %>
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                    <% end %>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <%= yield %>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'admins_backoffice' %>
+
+</body>
+
+
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <meta charset="utf-8">
+5:        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+6:        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+7:        <meta name="description" content="">
+8:        <meta name="author" content="">
+9:        <title>TimeToAnswer</title>
+10:        <meta name="viewport" content="width=device-width,initial-scale=1">
+11:        <%= csrf_meta_tags %>
+12:        <%= csp_meta_tag %>
+13:    
+14:        <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+15:        <%= stylesheet_link_tag "admins_backoffice" %>
+16:        
+17:    
+18:    
+19:    
+20:      </head>
+21:    
+22:    <body id="page-top">
+23:    
+24:        <!-- Page Wrapper -->
+25:        <div id="wrapper">
+26:    
+27:            <!-- Sidebar -->
+28:            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+29:    
+30:                <!-- Sidebar - Brand -->
+31:                <%= link_to admins_backoffice_welcome_index_path, class:"sidebar-brand d-flex align-items-center justify-content-center" href="index.html" do %>
+32:                    <div class="sidebar-brand-icon rotate-n-15">
+33:                        <i class="fas fa-laugh-wink"></i>
+34:                    </div>
+35:                    <div class="sidebar-brand-text mx-3">Backoffice Administrativo</sup></div>
+36:                </a>
+37:    
+38:                <!-- Divider -->
+39:                <hr class="sidebar-divider my-0">
+40:    
+41:                <!-- Nav Item - Dashboard -->
+42:                <li class="nav-item">
+43:                    <%= link_to admins_backoffice_welcome_index_path, class: "nav-link" do %>
+44:                        <i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span>
+45:                    <% end %>
+46:                <% end %>
+47:    
+48:                <!-- Divider -->
+49:                <hr class="sidebar-divider">
+50:    
+51:                <li class="nav-item">
+52:                    <%= link_to admins_backoffice_admins_path, class: 'nav-link' do %>
+53:                        <i class="fas fa-fw fa-users"></i>
+54:                        <span>Administradores
+55:                    <% end %>
+56:                </li>
+57:                
+58:    
+59:                <!-- Divider -->
+60:                <hr class="sidebar-divider d-none d-md-block">
+61:    
+62:                <!-- Sidebar Toggler (Sidebar) -->
+63:                <div class="text-center d-none d-md-inline">
+64:                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+65:                </div>
+66:    
+67:            </ul>
+68:            <!-- End of Sidebar -->
+69:    
+70:            <!-- Content Wrapper -->
+71:            <div id="content-wrapper" class="d-flex flex-column">
+72:    
+73:                <!-- Main Content -->
+74:                <div id="content">
+75:    
+76:                    <!-- Topbar -->
+77:                    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+78:    
+79:                        <!-- Sidebar Toggle (Topbar) -->
+80:                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+81:                            <i class="fa fa-bars"></i>
+82:                        </button>
+83:    
+84:                        <!-- Topbar Navbar -->
+85:                        <ul class="navbar-nav ml-auto">
+86:                            <!-- Nav Item - User Information -->
+87:                            <li class="nav-item dropdown no-arrow">
+88:                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+89:                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+90:                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+91:                                    <%= image_tag "undraw_profile.svg", alt:"Profile Image" %>
+92:                                    <i class="fa-solid fa-user"></i>
+93:                                </a>
+94:                                <!-- Dropdown - User Information -->
+95:                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+96:                                    aria-labelledby="userDropdown">
+97:                                    <a class="dropdown-item" href="#">
+98:                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+99:                                        Profile
+100:                                    </a>
+101:                                    <a class="dropdown-item" href="#">
+102:                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+103:                                        Settings
+104:                                    </a>
+105:                                    <a class="dropdown-item" href="#">
+106:                                        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+107:                                        Activity Log
+108:                                    </a>
+109:                                    <div class="dropdown-divider"></div>
+110:                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+111:                                        <%= button_to destroy_admin_session_path, method: :delete do %>
+112:                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+113:                                        <% end %>
+114:                                    </a>
+115:                                </div>
+116:                            </li>
+117:    
+118:                        </ul>
+119:    
+120:                    </nav>
+121:                    <!-- End of Topbar -->
+122:    
+123:                    <!-- Begin Page Content -->
+124:                    <div class="container-fluid">
+125:    
+126:                        <!-- Page Heading -->
+127:                        <%= yield %>
+128:    
+129:                    </div>
+130:                    <!-- /.container-fluid -->
+131:    
+132:                </div>
+133:                <!-- End of Main Content -->
+134:    
+135:    
+136:                <!-- Footer -->
+137:                <footer class="sticky-footer bg-white">
+138:                    <div class="container my-auto">
+139:                        <div class="copyright text-center my-auto">
+140:                            <span>Copyright &copy; Your Website 2020</span>
+141:                        </div>
+142:                    </div>
+143:                </footer>
+144:                <!-- End of Footer -->
+145:    
+146:            </div>
+147:            <!-- End of Content Wrapper -->
+148:    
+149:        </div>
+150:        <!-- End of Page Wrapper -->
+151:    
+152:        <!-- Scroll to Top Button-->
+153:        <a class="scroll-to-top rounded" href="#page-top">
+154:            <i class="fas fa-angle-up"></i>
+155:        </a>
+156:    
+157:        <!-- Logout Modal-->
+158:        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+159:            aria-hidden="true">
+160:            <div class="modal-dialog" role="document">
+161:                <div class="modal-content">
+162:                    <div class="modal-header">
+163:                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+164:                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+165:                            <span aria-hidden="true">×</span>
+166:                        </button>
+167:                    </div>
+168:                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+169:                    <div class="modal-footer">
+170:                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+171:                        <a class="btn btn-primary" href="login.html">Logout</a>
+172:                    </div>
+173:                </div>
+174:            </div>
+175:        </div>
+176:    
+177:        <%= javascript_importmap_tags %>
+178:        <%= javascript_include_tag 'application' %>
+179:        <%= javascript_include_tag 'admins_backoffice' %>
+180:    
+181:    </body>
+182:    
+183:    
+184:    </html>
+  
+app/views/layouts/admins_backoffice.html.erb:31: syntax error, unexpected local variable or method, expecting `end' or dummy end
+app/views/layouts/admins_backoffice.html.erb:186: syntax error, unexpected `end'
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:39:24 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.6ms | Allocations: 286)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 45.6ms | Allocations: 86302)
+Completed 200 OK in 56ms (Views: 46.6ms | ActiveRecord: 1.6ms | Allocations: 93876)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:39:26 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 17.4ms | Allocations: 15329)
+Completed 200 OK in 22ms (Views: 17.8ms | ActiveRecord: 0.1ms | Allocations: 17242)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:39:27 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 9.5ms | Allocations: 15253)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 17153)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2024-10-10 12:39:27 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (Duration: 1.9ms | Allocations: 799)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 14.8ms | Allocations: 15951)
+Completed 200 OK in 22ms (Views: 15.1ms | ActiveRecord: 0.4ms | Allocations: 18007)
+
+
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2024-10-10 12:39:36 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 0.4ms | Allocations: 123)
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 12.5ms | Allocations: 15426)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.1ms | Allocations: 17360)
+
+
